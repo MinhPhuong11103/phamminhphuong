@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Side Menu on Click</title>
+<style>
+body {
+  font-family: 'Arial', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.menu-icon {
+  cursor: pointer;
+  font-size: 24px; 
+  /* Kích thước cho biểu tượng, có thể sử dụng font-awesome hoặc material icons */
+}
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: -250px; /* bắt đầu từ bên phải và ngoài màn hình */
+  width: 250px;
+  height: 100%;
+  background: #333;
+  color: white;
+  padding: 15px;
+  box-shadow: -5px 0 5px rgba(0,0,0,0.2);
+  transition: right 0.4s ease; /* tạo hiệu ứng chuyển động mượt */
+}
+.side-menu.open {
+  right: 0; /* di chuyển vào bên trong màn hình */
+}
+</style>
+</head>
+<body>
+
+<i class="menu-icon">☰</i>
+
+<div id="sideMenu" class="side-menu">
+  <p>Đây là thanh lựa chọn.</p>
+  <!-- Các lựa chọn khác -->
+</div>
+
+<script>
+document.querySelector('.menu-icon').addEventListener('click', function() {
+  document.getElementById('sideMenu').classList.toggle('open');
+});
+</script>
+
+</body>
+</html>

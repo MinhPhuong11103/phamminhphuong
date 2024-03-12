@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog của Phương</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        body {
+            width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container,
+        .header,
+        .footer,
+        .content,
+        .projects_section,
+        .programming_language {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        #navigation_bar ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .programming_language {
+            margin-bottom: 40px;
+        }
+
+        .programming_language h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .programming_language .image_progaming img {
+            margin-right: 10px;
+            width: auto;
+            height: 100px;
+            border-radius: 5px;
+        }
+
+        .programming_language div {
+            margin-top: 10px;
+        }
+
+        .programming_language p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+
+        .projects_section {
+            margin: 40px 0;
+        }
+
+        .projects_section h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        .projects_grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .project {
+            flex-basis: 48%;
+            margin-bottom: 20px;
+        }
+
+        .project img {
+            max-width: 100%;
+            height: 150px;
+            border-radius: 5px;
+        }
+
+        .project_info {
+            padding: 10px;
+        }
+
+        .project_info h4 {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .project_info p {
+            text-align: justify;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .connect_and_share {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .connect_and_share .image_connect img {
+            width: 180px;
+            height: auto;
+        }
+
+        .connect_and_share .content_connect {
+            max-width: 70%;
+        }
+
+        .connect_and_share .content_connect h3 {
+            margin-bottom: 10px;
+        }
+
+        .connect_and_share .content_connect p {
+            margin-bottom: 10px;
+        }
+
+        .connect_and_share a {
+            margin-right: 10px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="index">
+        <div id="navigation_bar">
+            <ul>
+                <li>
+                    <a href="">
+                        <h2>Trang chủ</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="gioithieu.html">
+                        <h2>Giới thiệu</h2>
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://www.instagram.com/primrose.1103/?fbclid=IwAR3GHqcRG9X1pJcd7_GuuF03s_g_C3kl9ycQZEMNovIUipUxChKXvHcqEfQ">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/mphwng.1">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <i id="sideMenu" class="fa fa-bars fa-2x"></i>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contents">
+            <div class="title">
+                Chào mọi người, mình là Phương - Một sinh viên năm 3 đang học lập trình. Mình viết bài này để giới thiệu
+                một
+                chút về mình và con đường công nghệ mà mình đã và đang đi qua.
+            </div>
+            <div class="programming_language">
+                <h3>Ngôn ngữ lập trình của tôi</h3>
+                <div class="image_progaming">
+                    <img src="C++.jpg" alt="C++">
+                    <img src="java.jfif" alt="Java">
+                    <img src="js.png" alt="JavaScript">
+                </div>
+                <div>
+                    <p>Mình bắt đầu lập trình từ khi còn là học sinh cấp ba, lần đầu tiên tiếp xúc với Pascal qua một
+                        buổi học tại lớp tin. Từ những dòng code đầu tiên, mình đã cảm nhận được sức mạnh của công nghệ
+                        thông tin và cách mà nó giúp giải quyết vấn đề.</p>
+                    <p>Mọi thứ từ đó trở thành niềm vui và hứng thú mới của mình. Vì vậy sau khi tốt nghiệp cấp 3, mình
+                        quyết định theo đuổi ngành công nghệ thông tin. Mình đã trải qua một số ngôn ngữ lập trình khác
+                        nhau như C++, Java, và gần đây nhất là JavaScript. Mỗi ngôn ngữ đều mang lại những trải nghiệm,
+                        hiểu biết sâu rộng hơn về cách thức hoạt động của các ứng dụng.</p>
+                </div>
+            </div>
+            <div class="projects_section">
+                <h3>Dự án của tôi</h3>
+                <div class="projects_grid">
+                    <div class="project">
+                        <img src="webtinh.png" alt="Dự án 1">
+                        <div class="project_info">
+                            <h4>Dự án 1</h4>
+                            <p>
+                                Trang web này được làm với mục đích giúp các bạn nắm vững kiến thức về HTML, CSS và
+                                JavaScript(Cơ bản)
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <img src="duan2.jfif" alt="Dự án 2">
+                        <div class="project_info">
+                            <h4>Dự án 2</h4>
+                            <p>Phần mềm này mình cùng 3 người bạn tham gia làm với mục đích giúp giáo viên có thể quản
+                                lý sinh viên một cách dễ dàng hơn </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="connect_and_share">
+                <div class="image_connect">
+                    <img src="avt.jpg" alt="Biểu tượng mạng xã hội/Ảnh cá nhân" />
+                </div>
+                <div class="content_connect">
+                    <h3>Kết nối và Chia sẻ</h3>
+                    <p>Nếu bạn muốn theo dõi hoặc kết nối với mình trên các nền tảng mạng xã hội, hãy theo dõi các liên
+                        kết dưới đây. Mình luôn sẵn lòng nghe nhận xét và đóng góp ý kiến từ mọi người!</p>
+                    <a href="link-to-social-profile" target="_blank">
+                        <i class="fab fa-twitter fa-2x"></i>
+                    </a>
+                    <a href="link-to-another-profile" target="_blank">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
